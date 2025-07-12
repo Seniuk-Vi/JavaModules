@@ -8,7 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="main.api" />
-    <orderEntry type="module" module-name="main.university" />
-    <orderEntry type="module" module-name="main.labor.market" />
+    <orderEntry type="module" module-name="main.university" scope="RUNTIME" />
+    <orderEntry type="module" module-name="main.labor.market" scope="RUNTIME" />
   </component>
 </module>

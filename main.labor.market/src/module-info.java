@@ -1,4 +1,4 @@
 module main.labor.market {
     requires main.api;
-    exports main.labor.market;
+    provides main.api.Accountant with main.labor.market.AccountantLMImpl;
 }

@@ -1,4 +1,4 @@
 module main.university {
     requires main.api;
-    exports main.university;
+    provides main.api.Accountant with main.university.AccountantImpl;
 }
